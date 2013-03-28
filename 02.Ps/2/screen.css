@@ -1,0 +1,79 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+div
+{
+	position: absolute;
+}
+
+span
+{
+	position: absolute;
+}
+.top
+{
+	height: 9px;
+	width: 9px;
+	top: 1px;
+	right: -9px;
+	background-image: url(top.png);
+	background-repeat: no-repeat;
+}
+.r1
+{
+	width: 9px;
+	right: -9px;
+	top: 9px;
+	bottom: 5px;
+	background-image: url(r1.png);
+	background-repeat:repeat-y;
+}
+.left
+{
+	height: 9px;
+	width: 9px;
+	left: 0;
+	bottom: -4px;
+	background-image: url(left.png);
+	background-repeat: no-repeat;
+}
+.b1
+{
+	height: 9px;
+	left: 9px;
+	right: 0;
+	bottom: -4px;
+	background-image: url(b1.png);
+	background-repeat:repeat-x;
+}
+.right
+{
+	height: 9px;
+	width: 9px;
+	right: -9px;
+	bottom: -4px;
+	background-image: url(right.png);
+	background-repeat: no-repeat;
+}
+
+#thmb
+{
+	left: 500px;
+}

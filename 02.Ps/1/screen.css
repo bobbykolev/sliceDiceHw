@@ -1,0 +1,68 @@
+/*reset-start*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+html {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+/*reset-end*/
+
+.btn
+{
+	height: 55px;
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	background-color: #FFF;
+	cursor:	pointer;
+	margin:5px;
+	float:left;
+}
+.txt
+{
+	height: 55px;
+	padding:12px;
+	float:left;
+	background:url(bg_btn.png);
+}
+.left
+{
+	height: 55px;
+	width: 25px;
+	float: left;
+	background-image: url(left.png);
+	background-repeat: no-repeat;
+}
+.right
+{
+	height: 55px;
+	width: 25px;
+	float: left;
+	background-image: url(right.png);
+	background-repeat: no-repeat;
+}
+a
+{
+	float:left;
+	padding:20px;
+}
