@@ -1,0 +1,58 @@
+html, body, div, span, ul, li
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+ul
+{
+	margin:20px;
+	font-size: 0px;
+}
+ul li
+{
+	display:inline-block;
+	height: 50px;
+	background-position: left top;
+	vertical-align: top;
+}
+#left
+{
+	background-image: url(left.png);
+	background-repeat: no-repeat;
+	width: 7px;
+}
+
+#right
+{
+	background-image:url(right.png);
+	background-repeat:no-repeat;
+	width: 7px;
+}
+
+.section
+{
+	background-image:url(section.png);
+	background-repeat:no-repeat;
+	width: 2px;
+}
+
+.empty
+{
+	background-image: url(borders.png);
+	background-repeat: repeat-x;
+	padding-bottom: 15px;
+}
+a
+{
+	display: inline-block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #a7162e;
+	font-weight:bold;
+	text-decoration:none;
+	padding: 15px;
+}
