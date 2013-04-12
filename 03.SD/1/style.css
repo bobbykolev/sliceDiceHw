@@ -1,0 +1,170 @@
+body, div, ul, li, img, aside, main, span, h1
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	font-size:10px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#wrapper:after
+{
+	content:"";
+	display:block;
+	clear:both;
+}
+a
+{
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+}
+.p-inline-block
+{
+	display: inline-block;
+}
+#wrapper
+{
+	max-width:776px;
+	border:1px solid #e1ebf7;
+}
+header
+{
+	width: 776px;
+	background-image:url(header.png);
+	height: 47px;
+}
+#span-right
+{
+	float:left;
+}
+#span-right
+{
+	float:right;
+}
+#left
+{
+	width: 115px;
+	float:left;
+	background: #f2f3f7;
+	height: 305px;
+	padding-left: 5px;
+}
+h1
+{
+	color:#c41e89;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding: 30px 20px 0 10px;
+	margin-left: 140px;
+}
+h2
+{
+	color: #424284;
+	font-weight:bold;
+	font-size:11px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.left-sidebar-ul
+{
+	padding-left: 14px;
+}
+.left-sidebar-ul li>a
+{
+	color: #006699;
+}
+main
+{
+	float:left;
+	width: 444px;
+	background: #f9f4fd;
+	border:2px solid #e6def5;
+	height: 305px;
+}
+#main-nav
+{
+	background:#e6def5;
+	height:35px;
+	
+}
+#main-nav > ul li
+{
+	float:left;
+	list-style-type:none;
+	border-right:1px solid #0000cc;
+	line-height:12px;
+	margin-top: 15px;
+	
+}
+#main-nav > ul li a
+{
+	color: #0000cc;
+	padding: 0 7px;
+}
+ul #first-menu-li
+{
+	font-weight:bold;
+	color:#6d64a3;
+	list-style-image:url(star.png);
+	margin-left:20px;
+	border:none!important;
+}
+	
+.bold-class
+{
+	font-weight:bold;
+	color: #4b3e82;
+}
+#right
+{
+	width: 204px;
+	height: 305px;
+	float:left;
+	background: #f9f4fd;
+	border:2px solid #e6def5;
+}
+right-sidebar-ul
+{
+	padding-left: 14px;
+	
+}
+.right-sidebar-nav
+{
+	float:left;
+}
+.img-left
+{
+	float:left;
+}
+
+.orange
+{
+	margin-left: 20px;
+	list-style-type:none;
+	list-style-image:url(orange-bullet.jpg);
+}
+img 
+{
+	padding: 4px;
+}
+.date
+{
+	color:#4b3e82;
+}
+.p-block
+{
+	display:block;
+	color: #4b3e82;
+	margin: 0 10px;
+}
+
+footer
+{
+	width:776px;
+	background:#59518c;
+	color:white;
+	height: 22px;
+	float:left;
+	text-align:center;
+	padding-top: 10px;
+}

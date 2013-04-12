@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>input</title>
+<style>
+.not-color, #color
+{
+	padding:5px 0;
+	border-bottom:1px solid #eee;
+	text-align:center;
+	margin:auto;
+}
+.not-color
+{
+	width:250px;
+}
+</style>
+<link rel='stylesheet' href='spectrum.css' />
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="modernizr.custom.16232.js"></script>
+<script src='spectrum.js'></script>
+<script src="webshims-stable/js-webshim/minified/polyfiller.js"></script>
+<script>$.webshims.polyfill();</script>
+</head>
+<body>
+<div class="not-color">
+<h3>Input Demo</h3>
+</div>
+<form action="#" id="form">
+<div class="not-color">
+  <label for="email"> E-Mail </label>
+  <input name="email" required type="email" id="email" form="form" />
+</div>
+<div class="not-color">
+  <label for="date"> date: * </label>
+  <input name="date" data-placeholder="year-month-day" type="date" id="date" required form="form" />
+</div>
+<div class="not-color">
+  <input type="checkbox" required id="checkbox" name="checkbox" form="form" />
+  <label for="checkbox"> required checkbox* </label>
+</div>
+  <div class="not-color">
+    <label for="number"> number: <dfn title="required">*</dfn> </label>
+    <input name="number" required placeholder="number" type="number" id="number" form="form" />
+  </div>
+  <div class="not-color">
+    <label for="range"> range: </label>
+    <input name="range" type="range" id="range" />
+  </div>
+  <div class="not-color">
+    <label for="time"> Time: </label>
+    <input name="time" type="time" id="time" />
+  </div>
+  <div class="not-color">
+    <label for="password"> password: </label>
+    <input placeholder="password" name="password" type="password" id="password" />
+  </div>
+  <div class="not-color">
+    <textarea placeholder="hello this is a textbox" maxlength="6" required name="textarea" id="textarea"></textarea>
+  </div>
+  <div class="not-color">
+    <label for="select"> select: * </label>
+    <select required="required" name="select" id="select">
+      <option value="">Please choose</option>
+      <option>Option 1</option>
+      <option>Option 2</option>
+      <option>Option 3</option>
+    </select>
+  </div>
+  <div class="not-color">
+    <label for="progress"> progress </label>
+    <progress id="progress" value="30" max="100">100%</progress>
+  </div>
+    <div class="not-color">
+      <input type="radio" id="field6-1" name="radio-grp1-1" required />
+      <label for="field6-1"> Radiooption 2 </label>
+    </div>
+    <div class="not-color">
+      <input type="radio" id="field7-1" name="radio-grp1-1" />
+      <label for="field7-1"> Radiooption 2 </label>
+    </div>
+    <div class="not-color">
+      <input type="radio" id="field8-1" name="radio-grp1-1" />
+      <label for="field8-1"> Radiooption 3 </label>
+    </div>
+  <div class="not-color">
+    <label for="datetime"> datetime</label>
+    <input type="datetime" name="datetime" />
+  </div>
+  <div class="not-color">
+    <label for="month"> month</label>
+    <input type="month" name="month" />
+  </div>
+  <div class="not-color">
+    <label for="search"> search</label>
+    <input type="search" name="search" />
+  </div>
+  <div class="not-color">
+    <label for="tel"> tel</label>
+    <input type="tel" name="tel" />
+  </div>
+  <div class="not-color">
+    <label for="url"> url</label>
+    <input type="url" name="url" />
+  </div>
+  <div class="not-color">
+    <label for="week"> week</label>
+    <input type="week" name="week" />
+  </div>
+  <div id="color">
+    <label for="color"> color</label>
+    <input type="color" name="color" />
+  </div>
+  <div class="not-color">
+    <input type="submit" value="Send" />
+  </div>
+</form>
+</body>
+</html>
